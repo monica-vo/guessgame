@@ -5,6 +5,7 @@ function App() {
   return (
   <div className="App">
       <h1>Game using React</h1>
+      <input placeholder="Type something here..."></input>
     <div class="imgbox img">
       <div class="container">
       <div class="box box1">Box 1</div>
