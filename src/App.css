@@ -1,24 +1,42 @@
+body{
+  background-color: lightsalmon;
+}
+
 h1{
   text-align: center;
+  background-color: lightgreen;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 15vh;
+  position: absolute;
+  /* background-color: blueviolet; */
+  background-image: url("bird1_before.jpg");
+  background-repeat: no-repeat;
 }
 
+
+
+.imgbox{
+  background-color: lightseagreen;
+  position: relative;
+  min-height: 50vh;
+  width: 90vh;;
+  padding: 15vh;
+}
 
 
 .box{
   background-color: aqua;
   text-align: center;
   width: 33.333%;
-
+  position: relative;
 }
 
 .box1{
-  background-color: blue;
+  background-color: lightskyblue;
 
 }

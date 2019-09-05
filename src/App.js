@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-  <div class="imgbox img">
-    <div className="App">
+  <div className="App">
       <h1>Game using React</h1>
+    <div class="imgbox img">
       <div class="container">
       <div class="box box1">Box 1</div>
       <div class="box">Box 2</div>
